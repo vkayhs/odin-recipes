@@ -4,24 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lasagna</title>
+    <link rel="stylesheet" href="../css/recipe-style.css" />
   </head>
   <body>
     <h1>Lasagna</h1>
     <img
+      class="food-image"
       src="../images/lasagna.jpg"
       alt="Completed Lasagna Dish"
       width="200px"
     />
-    <h3>Description</h3>
-    <p>
+    <h3 class="title">Description</h3>
+    <p class="description">
       A special homemade lasagna recipe with a meaty, made-from-scratch tomato
       sauce and a deliciously cheesy filling. A more traditional homemade
       lasagna filling would be made with ricotta but my mom's recipe calls for a
       blend of small-curd cottage cheese and Parmesan. I have found none better
       anywhere. Serve with a leafy green salad and crusty garlic bread.
     </p>
-    <h3>Ingredients</h3>
-    <ul>
+    <h3 class="title">Ingredients</h3>
+    <ul id="ingredient-list">
       <li>
         <strong>Meat:</strong> This lasagna recipe starts with a pound of ground
         meat (½ pound ground pork, ½ pound lean ground beef).
@@ -62,8 +64,8 @@
         they act as a binding agent (which means they hold the layer together).
       </li>
     </ul>
-    <h3>Steps</h3>
-    <ol>
+    <h3 class="title">Steps</h3>
+    <ol id="numbered-steps">
       <li>
         <strong>Cook the meat: </strong>Cook the ground meat in a skillet until
         browned and crumbly. Add the onion and continue cooking until it's
@@ -91,8 +93,8 @@
       </li>
     </ol>
 
-    <p>
-      Credit for Recipe:
+    <p class="credit">
+      <span>Credit for Recipe:</span>
       <a href="https://www.allrecipes.com/recipe/19344/homemade-lasagna/"
         >Craig on All Recipes</a
       >
